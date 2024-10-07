@@ -1,0 +1,11 @@
+{
+    "react": ["Gaby", "Carolina"],
+    "redux": ["Anthony","Brendan"],
+    "node":  ["Curran", "Chris"],
+    "express": ["Jacob", "Jun"],
+    "sql": ["Brian", "George"], 
+    "mongodb": ["Clara", "Harris"],
+    "jest": ["Pedram", "Sung"],
+    "ajax": ["Vasean"]
+
+}

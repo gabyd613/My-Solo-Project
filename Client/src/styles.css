@@ -1,0 +1,117 @@
+ .addimage {
+    position: relative;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Ensure the body takes full viewport height */    
+    background-image: url(https://mathew2004.github.io/codeground/pair-programming.svg);
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+}
+ 
+ h1 {
+    margin:0%;
+    text-shadow: cornflowerblue;
+  font-family: Spicy Rice; 
+  font-variant: small-caps;
+  color: rgb(28, 43, 202);
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(14, 74, 203);
+  flex-basis: auto;
+  font-size: 5vw;
+}
+
+#findpartner {
+  width: 22vw;
+  height: 15vw;
+  position: absolute;
+  top: 7vw;
+  left: 46vw;
+  transform: translateX(-50%);
+  font-family: serif;
+  font-weight: 700;
+  font-variant: small-caps;
+  background-color: rgb(80, 117, 220);
+  border: none;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  flex-basis: auto;
+}
+
+#findpartner:hover {
+  background-color: #00667d;
+  color: white;
+  flex-basis: auto;
+}
+
+.image {
+  position: absolute;
+  top: 35vw;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+
+.entername {
+    margin-left: 5%;
+    font-family: Spicy Rice;
+    font-style: bold;
+    font-variant: small-caps;
+    color: rgb(28, 43, 202);
+    text-align: center;
+    font-size: x-large;
+    flex-basis: auto;
+}
+
+input {
+    width: 15%;
+}
+
+select {
+    width: 15%;
+    margin-right: 1%;
+}
+
+label {
+    position: absolute;
+    top: 7vw;
+    left: 58vw;
+
+    font-family: Spicy Rice;
+    font-style: bold;
+    font-variant: small-caps;
+    color: rgb(28, 43, 202);
+    text-align: right;
+    font-size: x-large;
+    flex-basis: auto; 
+}
+
+.topic{
+    position: absolute;
+    top: 7.5vw;
+    left: 78.5vw;
+}
+
+.name {
+    position: absolute;
+    top: 7.5vw;
+    left: 93.8vw;
+}
+
+h2 {
+  text-align: center;
+    font-family: Spicy Rice;
+    font-style: normal;
+    /* font-style: bold; */
+    font-variant: small-caps;
+    font-size: xx-large;
+    color: rgb(213, 224, 255);
+    position: absolute;
+    top: 7.5vw;
+    left: 39vw;
+}
